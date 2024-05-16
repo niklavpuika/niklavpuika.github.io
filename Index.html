@@ -1,21 +1,72 @@
-<body>
-    <h1>Niklāvs Zahars</h1>
-    <div id="introduction"></div>
-    <h2>About Niklāvs Zahars</h2>
-    <p>Niklāvs Zahars is an artist, residing in Liepāja. Currently he is working on an exhibition with a colaboration with another artist. He uses techniques like colored pencils and acrilic paint, but also using those together.
-    <br/></p>Niklāvs is originally from a small village named Cīrava and moved to Liepāja with his mom since there were more opportunities to succeed in life.
-        <div</div>
-        Some of the hobbies of the artist include
-        <ul>
-        <li>Painting/drawing</li>
-        <li>Reading</li>
-        <li>Travelling</li>
-        <li>Spending time with friends and family
-        <li>Learning new languages</li>
-        </li>
-        </ul>
-        <h1>Portolio</h1>
-        <div></div>
-        
-    
-</body>
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+    div {
+        width: 100%;
+        height: 100%;
+    }
+
+      .desktop {
+        background: blue;
+      }
+
+      .tablet {
+        background: red;
+      }
+
+      .phone {
+        background: green;
+      }
+
+      .desktop {
+        display: block;
+      }
+      .tablet,
+      .phone {
+        display: none;
+      }
+
+      @media (max-width: 768px) {
+        .tablet {
+          display: block;
+        }
+        .phone {
+          display: none;
+        }
+        .desktop {
+          display: none;
+        }
+      }
+
+      @media (max-width: 425px) {
+        .tablet {
+          display: none;
+        }
+        .phone {
+          display: block;
+        }
+        .desktop {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desktop">
+      <img src="./WebDesign.svg" alt="" >
+    </div>
+    <div class="tablet">
+      <img src="./TabletDesign.svg" alt="" >
+    </div>
+    <div class="phone">
+      <img src="./Phone Design.svg" alt="" >
+  
+    </div>
+  </body>
+</html>
