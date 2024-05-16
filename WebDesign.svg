@@ -15,7 +15,7 @@
 </style>
 <rect y="0" class="st0" width="866.53" height="83.85"/>
 <text transform="matrix(0.9904 0 0 1 49.8082 55.1089)" class="st1 st2">NIKLAAVPUIKA DESIGNS</text>
-<text transform="matrix(1 0 0 1 386.7982 55.1089)" class="st1 st2">HOME   ABOUT  PORTFOLIO  CONTACT</text>
+<text transform="matrix(1 0 0 1 386.7982 55.1089)" class="st1 st2" href="#about">HOME   ABOUT  PORTFOLIO  CONTACT</text>
 <image style="overflow:visible;opacity:0.63;" width="850" height="844" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA1IAAANMCAYAAABW+pzsAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
 jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAP+lSURBVHheZP0HkOxZlp+HnfLee/PqVb163pv2
 3dMz7cbP7PTuzu7OGixAuBBBISgQZEAkQUmMUFAIggxRjCAkGEKCWWCxftaM756eafteu+e9Ke9t
@@ -32667,7 +32667,7 @@ bJa52o7nQ79NxwDDy/MnitHK103Bt/kbswS5ZIWni2GGwQbpvtodVOAuKKRokliG1HIAytuuDu0O
 Lzk2ahcxiRh6mdq9yNOi27Af/9k=" transform="matrix(0.5944 0 0 0.5834 25.9065 150.0733)">
 </image>
 <rect y="601.4" class="st4" width="866.53" height="3215.55"/>
-<text transform="matrix(1 0 0 1 361.1758 678.274)" class="st1 st5">ABOUT</text>
+<text transform="matrix(1 0 0 1 361.1758 678.274)" class="st1 st5" id="about">ABOUT</text>
 <image style="overflow:visible;" width="360" height="450" xlink:href="data:image/jpeg;base64,/9j/4gxYSUNDX1BST0ZJTEUAAQEAAAxITGlubwIQAABtbnRyUkdCIFhZWiAHzgACAAkABgAxAABh
 Y3NwTVNGVAAAAABJRUMgc1JHQgAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLUhQICAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFjcHJ0AAABUAAAADNkZXNjAAAB
